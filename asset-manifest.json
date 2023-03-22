@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/allenliu-portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/allenliu-portfolio/static/js/main.67d7cd00.js",
+    "index.html": "/allenliu-portfolio/index.html",
+    "main.073c9b0a.css.map": "/allenliu-portfolio/static/css/main.073c9b0a.css.map",
+    "main.67d7cd00.js.map": "/allenliu-portfolio/static/js/main.67d7cd00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.67d7cd00.js"
+  ]
+}
