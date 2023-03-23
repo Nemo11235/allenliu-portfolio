@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/allenliu-portfolio/static/css/main.2c047a92.css",
-    "main.js": "/allenliu-portfolio/static/js/main.41a88ade.js",
+    "main.js": "/allenliu-portfolio/static/js/main.524f302d.js",
     "index.html": "/allenliu-portfolio/index.html",
     "main.2c047a92.css.map": "/allenliu-portfolio/static/css/main.2c047a92.css.map",
-    "main.41a88ade.js.map": "/allenliu-portfolio/static/js/main.41a88ade.js.map"
+    "main.524f302d.js.map": "/allenliu-portfolio/static/js/main.524f302d.js.map"
   },
   "entrypoints": [
     "static/css/main.2c047a92.css",
-    "static/js/main.41a88ade.js"
+    "static/js/main.524f302d.js"
   ]
 }
