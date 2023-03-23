@@ -19,6 +19,10 @@ li {
   margin: 0 2rem;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 a {
   color: #fff;
   text-decoration: none;
