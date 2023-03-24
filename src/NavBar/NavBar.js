@@ -13,6 +13,7 @@ function NavBar() {
   function goThank() {
     navigate(paths.thank);
   }
+
   return (
     <div className="navbar-div">
       <nav>

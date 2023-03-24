@@ -5,7 +5,7 @@ import "./ThankPage.scss";
 
 function ThankPage() {
   return (
-    <div>
+    <div className="thankpage-div">
       <NavBar />
       <h1>My cats</h1>
       <div className="img-wrapper">
