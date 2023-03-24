@@ -11,7 +11,7 @@
 
 h1 {
   margin: 0;
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding: 1rem;
   padding-left: 0;
   color: white;
@@ -21,7 +21,10 @@ h1 {
 
 p {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-weight: 450;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
   padding: 1rem;
   padding-left: 0;
   color: white;
@@ -62,6 +65,12 @@ p {
   z-index: -1;
 }
 
+.welcome-info {
+  margin: 0 auto;
+  padding-top: 18rem;
+  width: calc(100% - 8em);
+}
+
 .welcome-msg {
   opacity: 0;
   animation-name: fade-in-from-top;
@@ -85,26 +94,38 @@ p {
   animation-fill-mode: forwards;
 
   display: inline-block;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 2rem;
   margin-top: 1rem;
 
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
   text-align: center;
   text-transform: uppercase;
   color: #fff;
 
-  background-color: #007bff;
-  border: none;
-  border-radius: 0.5rem;
+  background-color: transparent;
+  border: solid;
+  border-color: white;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease-in-out;
   &:hover {
-    background-color: #0062cc;
+    border-color: rgba(175, 246, 88, 0.5);
+    color: rgba(175, 246, 88, 0.5);
+    cursor: pointer;
   }
 
   &:active {
     transform: translateY(0.125rem);
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes change-color {
+  from {
+    border-color: white;
+  }
+  to {
+    border-color: lightblue;
   }
 }
