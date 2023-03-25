@@ -18,6 +18,7 @@ function NavBar() {
     <div className="navbar-div">
       <nav>
         <ul>
+          <li onClick={goHome}> Allen</li>
           <li onClick={goHome}> Home</li>
           <li>About</li>
           <li>Projects</li>
