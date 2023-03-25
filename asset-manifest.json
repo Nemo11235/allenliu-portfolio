@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/allenliu-portfolio/static/css/main.9c33b377.css",
-    "main.js": "/allenliu-portfolio/static/js/main.44118040.js",
+    "main.css": "/allenliu-portfolio/static/css/main.0a6522d4.css",
+    "main.js": "/allenliu-portfolio/static/js/main.7014238e.js",
+    "static/media/pusheen.jpg": "/allenliu-portfolio/static/media/pusheen.c950babf92905199154f.jpg",
     "static/media/both.jpg": "/allenliu-portfolio/static/media/both.3ffc5c6904512830eb43.jpg",
+    "static/media/introBackground.jpg": "/allenliu-portfolio/static/media/introBackground.02d52040f52935dcf5a8.jpg",
+    "static/media/selfie.png": "/allenliu-portfolio/static/media/selfie.43e7b4324a6c2af6f3f1.png",
+    "static/media/both2.jpg": "/allenliu-portfolio/static/media/both2.a198be32d196db4a40db.jpg",
     "index.html": "/allenliu-portfolio/index.html",
-    "main.9c33b377.css.map": "/allenliu-portfolio/static/css/main.9c33b377.css.map",
-    "main.44118040.js.map": "/allenliu-portfolio/static/js/main.44118040.js.map"
+    "main.0a6522d4.css.map": "/allenliu-portfolio/static/css/main.0a6522d4.css.map",
+    "main.7014238e.js.map": "/allenliu-portfolio/static/js/main.7014238e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c33b377.css",
-    "static/js/main.44118040.js"
+    "static/css/main.0a6522d4.css",
+    "static/js/main.7014238e.js"
   ]
 }
