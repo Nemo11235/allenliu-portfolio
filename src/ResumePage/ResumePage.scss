@@ -1,0 +1,59 @@
+.resume-root {
+  height: auto;
+  background-color: rgb(230, 230, 230);
+}
+
+.resume-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-download {
+  position: fixed;
+  top: 8rem;
+  left: 8rem;
+  padding: 0.8rem 2rem;
+
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+
+  background-color: transparent;
+  border: solid;
+  border-color: black;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  &:hover {
+    border-color: rgba(175, 246, 88, 0.5);
+    color: rgba(175, 246, 88, 0.5);
+    cursor: pointer;
+  }
+
+  &:active {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+  }
+}
+
+img {
+  width: 40%;
+  height: auto;
+
+  &:hover {
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+}
+
+img:hover .btn-download {
+  width: 500px;
+}

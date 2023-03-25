@@ -47,9 +47,10 @@ function HomePage() {
       <div className="quote">
         <div className="quote-container">
           <h1>
-            十七张牌，你能秒我？你能秒杀我？你今天能十七张牌把卢本伟秒了，我当场把这个电脑屏幕吃掉！
+            We should consider every day lost in which we have not danced at
+            least once
           </h1>
-          <h1>———— 卢本伟</h1>
+          <h2>———— Friedrich Nietzsche</h2>
         </div>
       </div>
     </div>
