@@ -29,10 +29,11 @@ nav ul {
 
 li {
   margin: 0 2rem;
-}
-
-li:hover {
-  cursor: pointer;
+  &:hover {
+    border-color: rgba(175, 246, 88, 0.5);
+    color: rgba(175, 246, 88, 0.5);
+    cursor: pointer;
+  }
 }
 
 a {

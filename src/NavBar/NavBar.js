@@ -14,6 +14,10 @@ function NavBar() {
     navigate(paths.thank);
   }
 
+  function goResume() {
+    navigate(paths.resume);
+  }
+
   return (
     <div className="navbar-div">
       <nav>
@@ -22,7 +26,7 @@ function NavBar() {
           <li onClick={goHome}> Home</li>
           <li>About</li>
           <li>Projects</li>
-          <li>Contact</li>
+          <li onClick={goResume}>Resume</li>
           <li onClick={goThank}>Special Thanks</li>
         </ul>
       </nav>
