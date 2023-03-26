@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 
 function HomePage() {
   function scrollToAbout() {
-    const element = document.getElementsByClassName("intro-div")[0];
+    const element = document.getElementsByClassName("intro-card")[0];
     element.scrollIntoView({ behavior: "smooth" });
   }
 
