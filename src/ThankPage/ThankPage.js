@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import BothImg from "../Images/both.jpg";
+import BothImg from "../Images/both2.jpg";
 import "./ThankPage.scss";
 
 function ThankPage() {

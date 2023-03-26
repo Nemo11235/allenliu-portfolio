@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <div className="root">
       <NavBar />
-      <div className="welcome-div">
+      <div className="welcome-card">
         <div className="welcome-info">
           <h1 className="welcome-msg">Hi, my name is Allen</h1>
           <div className="intro">
@@ -23,7 +23,7 @@ function HomePage() {
         </div>
       </div>
 
-      <div className="intro-div">
+      <div className="intro-card">
         <div className="intro-left">
           <div className="selfie"></div>
           <h1>Allen Liu</h1>
@@ -52,6 +52,10 @@ function HomePage() {
           </h1>
           <h2>———— Friedrich Nietzsche</h2>
         </div>
+      </div>
+      <div className="project-card">
+        <div className="project-left"></div>
+        <div className="project-right"></div>
       </div>
     </div>
   );
