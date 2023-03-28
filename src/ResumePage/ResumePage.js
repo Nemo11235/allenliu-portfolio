@@ -13,9 +13,12 @@ function ResumePage() {
       <NavBar />
 
       <div className="resume-container">
-        <button className="btn-download" onClick={click}>
-          view google doc
-        </button>
+        <img
+          className="img-gDoc"
+          src={require("../Images/gDocLogo.png")}
+          alt="google doc logo"
+          onClick={click}
+        ></img>
         <img
           onClick={click}
           className="img-resume"
