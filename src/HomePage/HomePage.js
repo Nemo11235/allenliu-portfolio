@@ -17,7 +17,7 @@ function HomePage() {
           <div className="intro">
             <p>This portfolio showcases my skills, projects, and experience.</p>
           </div>
-          <button className="btn-viewProject" onClick={scrollToAbout}>
+          <button className="btn-toAbout" onClick={scrollToAbout}>
             Get started <span class="icon">&#10148;</span>
           </button>
         </div>
@@ -32,14 +32,16 @@ function HomePage() {
           <div className="self-intro-contianer">
             <h1>About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui{" "}
+              Hello, I'm an immigrant from China who moved to the US in 2016.
+              Since then, I've been pursuing my passion for computer science and
+              making new friends in this exciting new environment. I'm also a
+              proud owner of two adorable cats named MeiMei and XiaoHei, or as
+              they're affectionately known, Pusheen and Blackie. Recently, I
+              graduated from SJSU and am eager to launch my career with a
+              fulfilling full-time job. As someone who is enthusiastic,
+              diligent, and always eager to learn, I'm confident that I can make
+              a valuable contribution to any team. Thank you for taking the time
+              to get to know me!{" "}
             </p>
           </div>
         </div>

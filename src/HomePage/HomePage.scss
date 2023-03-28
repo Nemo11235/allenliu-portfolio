@@ -86,7 +86,7 @@
   animation-fill-mode: forwards;
 }
 
-.btn-viewProject {
+.btn-toAbout {
   opacity: 0;
   animation-name: fade-in-from-top;
   animation-duration: 1s;
@@ -237,5 +237,22 @@
   transform: rotate(180deg);
 }
 
-.project-chard {
+@media screen and (max-width: 768px) {
+  // adjust the spacing and font for mobile view
+  .intro-right {
+    p {
+      font-size: 1.3rem;
+    }
+  }
+
+  .intro-left {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .selfie {
+      width: 8rem;
+      height: 8rem;
+    }
+  }
 }
