@@ -2,6 +2,7 @@
 const paths = {
   home: `/allenliu-portfolio/`,
   resume: `/allenliu-portfolio/resume`,
+  about: `/allenliu-portfolio/about`,
   projects: `/allenliu-portfolio/projects`,
   thank: `/allenliu-portfolio/thank`,
 };

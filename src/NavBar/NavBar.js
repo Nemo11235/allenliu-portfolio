@@ -21,6 +21,11 @@ function NavBar() {
     setIsOpen(!isOpen);
   }
 
+  function goAbout() {
+    navigate(paths.about);
+    setIsOpen(!isOpen);
+  }
+
   const [isOpen, setIsOpen] = useState(false);
 
   function hadnleDropdownClick() {
@@ -33,7 +38,7 @@ function NavBar() {
         <ul>
           <li onClick={goHome}> Allen</li>
           <li onClick={goHome}> Home</li>
-          <li>About</li>
+          <li onClick={goAbout}>About</li>
           <li>Projects</li>
           <li onClick={goResume}>Resume</li>
           <li onClick={goThank}>Special Thanks</li>
