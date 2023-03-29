@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/allenliu-portfolio/static/css/main.979fd47e.css",
-    "main.js": "/allenliu-portfolio/static/js/main.bbf264ba.js",
+    "main.css": "/allenliu-portfolio/static/css/main.b1c2bd7c.css",
+    "main.js": "/allenliu-portfolio/static/js/main.11f3f246.js",
+    "static/media/forest.jpg": "/allenliu-portfolio/static/media/forest.d5296258d266b9936d91.jpg",
     "static/media/pusheen.jpg": "/allenliu-portfolio/static/media/pusheen.c950babf92905199154f.jpg",
     "static/media/both.jpg": "/allenliu-portfolio/static/media/both.3ffc5c6904512830eb43.jpg",
     "static/media/introBackground.jpg": "/allenliu-portfolio/static/media/introBackground.02d52040f52935dcf5a8.jpg",
     "static/media/resume.png": "/allenliu-portfolio/static/media/resume.f02ad7df7fbab83070b7.png",
+    "static/media/cool-background.png": "/allenliu-portfolio/static/media/cool-background.8a9738d29a65f08edaef.png",
     "static/media/selfie.png": "/allenliu-portfolio/static/media/selfie.43e7b4324a6c2af6f3f1.png",
     "static/media/both2.jpg": "/allenliu-portfolio/static/media/both2.a198be32d196db4a40db.jpg",
+    "static/media/gDocLogo.png": "/allenliu-portfolio/static/media/gDocLogo.94d0bdc93725bc30e551.png",
     "index.html": "/allenliu-portfolio/index.html",
-    "main.979fd47e.css.map": "/allenliu-portfolio/static/css/main.979fd47e.css.map",
-    "main.bbf264ba.js.map": "/allenliu-portfolio/static/js/main.bbf264ba.js.map"
+    "main.b1c2bd7c.css.map": "/allenliu-portfolio/static/css/main.b1c2bd7c.css.map",
+    "main.11f3f246.js.map": "/allenliu-portfolio/static/js/main.11f3f246.js.map"
   },
   "entrypoints": [
-    "static/css/main.979fd47e.css",
-    "static/js/main.bbf264ba.js"
+    "static/css/main.b1c2bd7c.css",
+    "static/js/main.11f3f246.js"
   ]
 }
