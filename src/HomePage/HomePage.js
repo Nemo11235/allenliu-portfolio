@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./HomePage.scss";
 import NavBar from "../NavBar/NavBar";
+import SocialBar from "../SocialBar/SocialBar";
 import Rellax from "rellax";
 
 function HomePage() {
@@ -20,6 +21,7 @@ function HomePage() {
 
   return (
     <div className="root">
+      <SocialBar />
       <button class="back-top" onClick={scrollToTop}>
         <span class="circle" aria-hidden="true">
           <span class="icon arrow"></span>
