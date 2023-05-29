@@ -1,8 +1,8 @@
 import React from "react";
-import linkedinLogo from "../Images/linkedin-logo.png";
-import gmailLogo from "../Images/gmail-logo.png";
-import githubLogo from "../Images/github-logo.png";
-import facebookLogo from "../Images/facebook-logo.png";
+import linkedinLogo from "../../Images/linkedin-logo.png";
+import gmailLogo from "../../Images/gmail-logo.png";
+import githubLogo from "../../Images/github-logo.png";
+import facebookLogo from "../../Images/facebook-logo.png";
 import "./SocialBar.scss";
 
 const SocialBar = () => {

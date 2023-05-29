@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./HomePage.scss";
-import NavBar from "../NavBar/NavBar";
-import SocialBar from "../SocialBar/SocialBar";
+import NavBar from "../Components/NavBar/NavBar";
+import SocialBar from "../Components/SocialBar/SocialBar";
 import Rellax from "rellax";
 
 function HomePage() {

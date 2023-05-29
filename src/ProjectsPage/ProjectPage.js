@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutPage.scss";
+import "./ProjectPage.scss";
 import SocialBar from "../Components/SocialBar/SocialBar";
 import NavBar from "../Components/NavBar/NavBar";
 function AboutPage() {

@@ -1,0 +1,12 @@
+[
+    {
+        "project": "Cashier Application",
+        "tech": ["Java"],
+        "description": "An pure Java program that records money transections, membership info, private lessons, monthly pass validation."
+    },
+    {
+        "project": "Wordle Game",
+        "tech": ["React", "HTML", "CSS", "Javascript", "Socket.io", "SCSS", "OAuth", "NoSQL"],
+        "description": "sallycooper@gmail.com"
+    }
+]

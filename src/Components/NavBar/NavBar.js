@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import paths from "../Utils/paths";
+import paths from "../../Utils/paths";
 
 import "./NavBar.scss";
 
@@ -26,6 +26,11 @@ function NavBar() {
     setIsOpen(!isOpen);
   }
 
+  function goProject() {
+    navigate(paths.projects);
+    setIsOpen(!isOpen);
+  }
+
   const [isOpen, setIsOpen] = useState(false);
 
   function hadnleDropdownClick() {
@@ -39,7 +44,7 @@ function NavBar() {
           <li onClick={goHome}> Allen</li>
           <li onClick={goHome}> Home</li>
           <li onClick={goAbout}>About</li>
-          <li>Projects</li>
+          <li onClick={goProject}>Projects</li>
           <li onClick={goResume}>Resume</li>
           <li onClick={goThank}>Special Thanks</li>
         </ul>
@@ -52,7 +57,7 @@ function NavBar() {
           <ul className="dropdown-menu">
             <li onClick={goHome}> Home</li>
             <li>About</li>
-            <li>Projects</li>
+            <li onClick={goProject}>Projects</li>
             <li onClick={goResume}>Resume</li>
             <li onClick={goThank}>Special Thanks</li>
           </ul>
