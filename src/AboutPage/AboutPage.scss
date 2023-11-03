@@ -12,7 +12,10 @@
   border: 1px solid black;
 }
 
-.project-card {
-  width: 100px;
-  height: 100px;
+.card {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  width: 100%;
+  height: 350px;
 }

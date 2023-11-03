@@ -85,10 +85,6 @@ function HomePage() {
           <h2>———— Friedrich Wilhelm Nietzsche</h2>
         </div>
       </div>
-      <div className="project-card">
-        <div className="project-left"></div>
-        <div className="project-right"></div>
-      </div>
     </div>
   );
 }
