@@ -7,6 +7,7 @@ function AboutPage() {
     <div className="root">
       <NavBar />
       <SocialBar />
+      <div className="blur"></div>
       <div className="projects-container">
         <div className="card">
           <h1>As a Badminton Coach</h1>
@@ -25,12 +26,11 @@ function AboutPage() {
             coaching skills continued to improve, I started leading both private
             and group lessons. By the time I transferred to San Jose State
             University, I had taught approximately 100+ students, ranging from 5
-            years old to 40 years old. In addition to coaching, I also provided
-            racket restringing services for the club's customers, served as the
-            primary judge of a local tournament, and developed a Java program to
-            assist with the club's bookkeeping. I genuinely enjoy every aspect
-            of this sport, and I wholeheartedly strive to excel in whatever role
-            I undertake.
+            years old to 40 years old. In addition to coaching, I was the racket
+            restringer of the club, served as the primary judge of a local
+            tournament, and developed a Java program to assist with the club's
+            bookkeeping. I genuinely enjoy every aspect of this sport, and I
+            wholeheartedly strive to excel in whatever role I undertake.
           </p>
         </div>
         <div className="card">
@@ -62,10 +62,15 @@ function AboutPage() {
             George Tech University and reached the final 16. Additionally, I was
             in charge of the localization of an independent game called "DRAW"
             made by San Jose University Game Development Club(the game is
-            available for free on the Steam). I thoroughly enjoy the many
-            wonderful experiences that games have brought me, including
-            interactions with friends, emotionally gripping stories, tricky
-            puzzles, and intense, thrilling battles.
+            available for free). The game was published on steam and free to
+            play, receiving over 300 positive reviews and received multiple
+            awards in SJSU Game Development Club, winning "Most Fun", "Most
+            Polished", and "Most Creative" in Fall 2021, and "Best Game Design",
+            "Best Ongoing Game", and the prestigioius "Game of the Year" in
+            Spring 2023. I thoroughly enjoy the many wonderful experiences that
+            games have brought me, including interactions with friends,
+            emotionally gripping stories, tricky puzzles, and intense, thrilling
+            battles.
           </p>
         </div>
       </div>
