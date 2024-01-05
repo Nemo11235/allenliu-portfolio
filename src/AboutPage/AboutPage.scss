@@ -1,12 +1,5 @@
-:root {
-  --header-height: 50px;
-}
-
-.root {
-  min-height: 100vh;
-}
-
 .projects-container {
+  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,96 +7,34 @@
   width: 100%;
   height: auto;
   border: 1px solid black;
+  padding-bottom: 30px;
 }
 
+/* 暗色卡片样式 */
 .card {
-  display: flex;
+  width: 800px;
+  margin-top: 30px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
   position: relative;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10vh;
-  width: 100%;
-  min-height: 80vh;
+  box-shadow: 0 0 30px rgba(0, 0, 255, 0.7); /* Adjust the color and intensity of the glow */
+  transition: transform 0.3s ease; /* 添加过渡效果，使放大动画更平滑 */
+  animation: pulse 1s infinite alternate; /* Apply the animation */
 }
 
-.firstCard {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10vh;
-  width: 100%;
-  min-height: calc(80vh - var(--header-height));
+/* Animation keyframes for pulsing effect */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 40px rgba(0, 0, 255, 0.9); /* Adjust the final glow effect */
+  }
 }
 
-.title {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.content {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nextBtn {
-  position: absolute;
-  border: none;
-  bottom: 2rem;
-  right: 50%;
-  display: inline-block;
-  cursor: pointer;
-  vertical-align: middle;
-  background: transparent;
-  padding: 0;
-  height: auto;
-  z-index: 99;
-}
-
-.nextBtn .circle {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: relative;
-  display: block;
-  margin: 0;
-  width: 3rem;
-  height: 3rem;
-  background: rgba(16, 16, 21, 0.5);
-  border-radius: 1.625rem;
-}
-
-.nextBtn .circle .icon {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-
-.nextBtn .circle .icon.arrow {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.85rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-
-.nextBtn .circle .icon.arrow::before {
-  position: absolute;
-  content: "";
-  top: -0.29rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
-  transform: rotate(135deg);
-}
-
-.nextBtn:hover .circle .icon.arrow {
-  transform: translate(0, 1rem);
+/* 鼠标悬浮时放大效果 */
+.card:hover {
+  transform: scale(1.2); /* 设置放大倍数，这里是 1.1 倍 */
 }
