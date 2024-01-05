@@ -8,6 +8,7 @@
   height: auto;
   border: 1px solid black;
   padding-bottom: 30px;
+  min-height: 100vh;
 }
 
 /* 暗色卡片样式 */
@@ -37,4 +38,8 @@
 /* 鼠标悬浮时放大效果 */
 .card:hover {
   transform: scale(1.2); /* 设置放大倍数，这里是 1.1 倍 */
+}
+
+.content {
+  display: none;
 }

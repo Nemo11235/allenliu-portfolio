@@ -11,7 +11,7 @@ function AboutPage() {
       <div className="projects-container">
         <div className="card">
           <h1>As a Badminton Coach</h1>
-          <p>
+          <p className="content">
             Badminton is my favorite sport, and I have dedicated a significant
             amount of time to improve my skills. During my high school years, I
             joined my school's badminton team and found this sport so appealing
@@ -35,7 +35,7 @@ function AboutPage() {
         </div>
         <div className="card">
           <h1>As a Sushi Chef</h1>
-          <p>
+          <p className="content">
             Starting in 2022, in order to contribute to my family's living
             expenses while searching for a full-time job in my major field, I
             took on a part-time role as an apprentice at Angry Fish Sushi, a
@@ -49,7 +49,7 @@ function AboutPage() {
         </div>
         <div className="card">
           <h1>As a Gamer</h1>
-          <p>
+          <p className="content">
             In China, the heavy academic pressure left me with no time to engage
             in the ninth art of electronic gaming. After coming to the United
             States, the relatively abundant free time allowed me to explore
