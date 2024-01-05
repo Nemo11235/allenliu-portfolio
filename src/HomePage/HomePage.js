@@ -64,7 +64,8 @@ function HomePage() {
             </p>
             <p>
               I'm also a proud owner of two adorable cats named MeiMei and
-              XiaoHei, or as they're affectionately known, Pusheen and Blackie.{" "}
+              XiaoHei, or as they're affectionately known, Pusheen and Blackie.
+              They are my adorable emotional supports.{" "}
             </p>
             <p>
               Recently, I graduated from SJSU and am eager to launch my career
