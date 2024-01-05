@@ -4,19 +4,19 @@ import SocialBar from "../Components/SocialBar/SocialBar";
 import NavBar from "../Components/NavBar/NavBar";
 function AboutPage() {
   function goToProgrammer() {
-    const element = document.getElementsByClassName("firstCard")[0];
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-  function goToCoach() {
     const element = document.getElementsByClassName("card")[0];
     element.scrollIntoView({ behavior: "smooth" });
   }
-  function goToChef() {
+  function goToCoach() {
     const element = document.getElementsByClassName("card")[1];
     element.scrollIntoView({ behavior: "smooth" });
   }
-  function goToGamer() {
+  function goToChef() {
     const element = document.getElementsByClassName("card")[2];
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+  function goToGamer() {
+    const element = document.getElementsByClassName("card")[3];
     element.scrollIntoView({ behavior: "smooth" });
   }
 
@@ -26,7 +26,7 @@ function AboutPage() {
       <SocialBar />
       <div className="blur"></div>
       <div className="projects-container">
-        <div className="firstCard">
+        <div className="card">
           <h1 className="title">As a Programmer</h1>
           <p className="content">
             Badminton is my favorite sport, and I have dedicated a significant
@@ -85,18 +85,28 @@ function AboutPage() {
           </button>
         </div>
         <div className="card">
-          <h1>As a Sushi Chef</h1>
+          <h1 className="title">As a Sushi Chef</h1>
+
           <p className="content">
-            Starting in 2022, in order to contribute to my family's living
-            expenses while searching for a full-time job in my major field, I
-            took on a part-time role as an apprentice at Angry Fish Sushi, a
-            sushi restaurant with a 10-year history. Having developed my cooking
-            skills as a home cook, I quickly adapted and became a
-            self-sufficient sushi chef. Fueled by my enthusiasm for great taste
-            and flavor, I conducted extensive research and dedicated a
-            substantial amount of time to refine my skills, thoroughly enjoying
-            the entire process.
+            <span className="highlight">Starting </span> in 2022, in order to
+            contribute to my family's living expenses while searching for a
+            full-time job in my major field, I took on a part-time role as an
+            apprentice at Angry Fish Sushi, a sushi restaurant with a 10-year
+            history.
           </p>
+          <p className="content">
+            <span className="highlight">Having </span> developed my cooking
+            skills as a home cook, I quickly adapted and became a
+            self-sufficient sushi chef.
+          </p>
+
+          <p className="content">
+            <span className="highlight">Fueled </span> by my enthusiasm for
+            great taste and flavor, I conducted extensive research and dedicated
+            a substantial amount of time to refine my skills, thoroughly
+            enjoying the entire process.
+          </p>
+
           <button class="nextBtn" onClick={goToGamer}>
             <span class="circle" aria-hidden="true">
               <span class="icon arrow"></span>
@@ -104,7 +114,7 @@ function AboutPage() {
           </button>
         </div>
         <div className="card">
-          <h1>As a Gamer</h1>
+          <h1 className="title">As a Gamer</h1>
           <p className="content">
             In China, the heavy academic pressure left me with no time to engage
             in the ninth art of electronic gaming. After coming to the United
