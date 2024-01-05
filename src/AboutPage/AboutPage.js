@@ -3,15 +3,32 @@ import "./AboutPage.scss";
 import SocialBar from "../Components/SocialBar/SocialBar";
 import NavBar from "../Components/NavBar/NavBar";
 function AboutPage() {
+  function goToProgrammer() {
+    const element = document.getElementsByClassName("firstCard")[0];
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+  function goToCoach() {
+    const element = document.getElementsByClassName("card")[0];
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+  function goToChef() {
+    const element = document.getElementsByClassName("card")[1];
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+  function goToGamer() {
+    const element = document.getElementsByClassName("card")[2];
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <div className="root">
       <NavBar />
       <SocialBar />
       <div className="blur"></div>
       <div className="projects-container">
-        <div className="card">
-          <h1>As a Badminton Coach</h1>
-          <p>
+        <div className="firstCard">
+          <h1 className="title">As a Programmer</h1>
+          <p className="content">
             Badminton is my favorite sport, and I have dedicated a significant
             amount of time to improve my skills. During my high school years, I
             joined my school's badminton team and found this sport so appealing
@@ -32,6 +49,40 @@ function AboutPage() {
             bookkeeping. I genuinely enjoy every aspect of this sport, and I
             wholeheartedly strive to excel in whatever role I undertake.
           </p>
+          <button class="nextBtn" onClick={goToCoach}>
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+          </button>
+        </div>
+        <div className="card">
+          <h1 className="title">As a Badminton Coach</h1>
+          <p className="content">
+            Badminton is my favorite sport, and I have dedicated a significant
+            amount of time to improve my skills. During my high school years, I
+            joined my school's badminton team and found this sport so appealing
+            that I would even dream about playing it. It was an incredible
+            experience to engage in playing, learning, and practicing all the
+            skills associated with this sport to become a better player. To
+            cover some of my expenses during community college, I worked at
+            United Badminton Club as as a front desk attendant. While playing
+            with my friends there, the head coach noticed my passion for this
+            sport and decided to mentor me as his assistant coach. As a result,
+            I became the youngest coach in the club. As both my badminton and
+            coaching skills continued to improve, I started leading both private
+            and group lessons. By the time I transferred to San Jose State
+            University, I had taught approximately 100+ students, ranging from 5
+            years old to 40 years old. In addition to coaching, I was the racket
+            restringer of the club, served as the primary judge of a local
+            tournament, and developed a Java program to assist with the club's
+            bookkeeping. I genuinely enjoy every aspect of this sport, and I
+            wholeheartedly strive to excel in whatever role I undertake.
+          </p>
+          <button class="nextBtn" onClick={goToChef}>
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+          </button>
         </div>
         <div className="card">
           <h1>As a Sushi Chef</h1>
@@ -46,6 +97,11 @@ function AboutPage() {
             substantial amount of time to refine my skills, thoroughly enjoying
             the entire process.
           </p>
+          <button class="nextBtn" onClick={goToGamer}>
+            <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+            </span>
+          </button>
         </div>
         <div className="card">
           <h1>As a Gamer</h1>
