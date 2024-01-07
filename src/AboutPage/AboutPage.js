@@ -26,8 +26,10 @@ function AboutPage() {
       <SocialBar />
       <div className="blur"></div>
       <div className="projects-container">
-        <div className="card">
-          <h1 className="title">As a Programmer</h1>
+        <div className="card" id="programmer">
+          <div className="wrapper">
+            <h1 className="title">As a Programmer</h1>
+          </div>
           <p className="content">
             Badminton is my favorite sport, and I have dedicated a significant
             amount of time to improve my skills. During my high school years, I
@@ -56,7 +58,9 @@ function AboutPage() {
           </button>
         </div>
         <div className="card">
-          <h1 className="title">As a Badminton Coach</h1>
+          <div className="wrapper">
+            <h1 className="title">As a Badminton Coach</h1>
+          </div>
           <p className="content">
             Badminton is my favorite sport, and I have dedicated a significant
             amount of time to improve my skills. During my high school years, I
@@ -85,7 +89,9 @@ function AboutPage() {
           </button>
         </div>
         <div className="card">
-          <h1 className="title">As a Sushi Chef</h1>
+          <div className="wrapper">
+            <h1 className="title">As a Sushi Chef</h1>
+          </div>
 
           <p className="content">
             <span className="highlight">Starting </span> in 2022, in order to
@@ -95,7 +101,7 @@ function AboutPage() {
             history.
           </p>
           <p className="content">
-            <span className="highlight">Having </span> developed my cooking
+            <span className="highlight">H </span>aving developed my cooking
             skills as a home cook, I quickly adapted and became a
             self-sufficient sushi chef.
           </p>
@@ -114,7 +120,9 @@ function AboutPage() {
           </button>
         </div>
         <div className="card">
-          <h1 className="title">As a Gamer</h1>
+          <div className="wrapper">
+            <h1 className="title">As a Gamer</h1>
+          </div>
           <p className="content">
             In China, the heavy academic pressure left me with no time to engage
             in the ninth art of electronic gaming. After coming to the United
