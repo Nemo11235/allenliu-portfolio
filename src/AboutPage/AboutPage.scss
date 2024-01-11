@@ -145,3 +145,39 @@
   background-color: rgba(131, 192, 192, 0.5);
   z-index: 0;
 }
+
+#coach {
+  background-image: url("../Images/badminton.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#coach::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(119, 255, 92, 0.3);
+  z-index: 0;
+}
+
+#sushi {
+  background-image: url(../Images/sushi.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#sushi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(119, 255, 92, 0.3);
+  z-index: 0;
+}

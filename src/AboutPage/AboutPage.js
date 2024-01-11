@@ -31,25 +31,10 @@ function AboutPage() {
             <h1 className="title">As a Programmer</h1>
           </div>
           <p className="content">
-            Badminton is my favorite sport, and I have dedicated a significant
-            amount of time to improve my skills. During my high school years, I
-            joined my school's badminton team and found this sport so appealing
-            that I would even dream about playing it. It was an incredible
-            experience to engage in playing, learning, and practicing all the
-            skills associated with this sport to become a better player. To
-            cover some of my expenses during community college, I worked at
-            United Badminton Club as as a front desk attendant. While playing
-            with my friends there, the head coach noticed my passion for this
-            sport and decided to mentor me as his assistant coach. As a result,
-            I became the youngest coach in the club. As both my badminton and
-            coaching skills continued to improve, I started leading both private
-            and group lessons. By the time I transferred to San Jose State
-            University, I had taught approximately 100+ students, ranging from 5
-            years old to 40 years old. In addition to coaching, I was the racket
-            restringer of the club, served as the primary judge of a local
-            tournament, and developed a Java program to assist with the club's
-            bookkeeping. I genuinely enjoy every aspect of this sport, and I
-            wholeheartedly strive to excel in whatever role I undertake.
+            I started programming sinece highschool. I was fancinated by the
+            things that computer could do for us and amazed by the beauty of
+            algorithms. I enjoy the feeling of using code to convert thoughts
+            and ideas into code, and result in solve problems.
           </p>
           <button class="nextBtn" onClick={goToCoach}>
             <span class="circle" aria-hidden="true">
@@ -57,7 +42,7 @@ function AboutPage() {
             </span>
           </button>
         </div>
-        <div className="card">
+        <div className="card" id="coach">
           <div className="wrapper">
             <h1 className="title">As a Badminton Coach</h1>
           </div>
@@ -88,7 +73,7 @@ function AboutPage() {
             </span>
           </button>
         </div>
-        <div className="card">
+        <div className="card" id="sushi">
           <div className="wrapper">
             <h1 className="title">As a Sushi Chef</h1>
           </div>
