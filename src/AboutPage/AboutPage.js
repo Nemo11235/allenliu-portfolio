@@ -3,10 +3,10 @@ import "./AboutPage.scss";
 import SocialBar from "../Components/SocialBar/SocialBar";
 import NavBar from "../Components/NavBar/NavBar";
 function AboutPage() {
-  function goToProgrammer() {
-    const element = document.getElementsByClassName("card")[0];
-    element.scrollIntoView({ behavior: "smooth" });
-  }
+  // function goToProgrammer() {
+  //   const element = document.getElementsByClassName("card")[0];
+  //   element.scrollIntoView({ behavior: "smooth" });
+  // }
   function goToCoach() {
     const element = document.getElementsByClassName("card")[1];
     element.scrollIntoView({ behavior: "smooth" });
