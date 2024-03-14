@@ -2,6 +2,7 @@ import React from "react";
 import "./ProjectPage.scss";
 import SocialBar from "../Components/SocialBar/SocialBar";
 import NavBar from "../Components/NavBar/NavBar";
+
 function ProjectPage() {
   return (
     <div className="root">
