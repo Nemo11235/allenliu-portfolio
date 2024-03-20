@@ -13,7 +13,7 @@ const IMAGES = [cat1, cat2, cat3, cat4, cat5];
 function ThankPage() {
   return (
     <div className="thankpage-root">
-      {/* <NavBar /> */}
+      <NavBar />
       <div className="thankpage-slider-div">
         <ImgSlider imgUrls={IMAGES} />
       </div>
