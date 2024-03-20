@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutPage.scss";
 import SocialBar from "../Components/SocialBar/SocialBar";
 import NavBar from "../Components/NavBar/NavBar";
+import { Airplay, ChefHat, Dumbbell, Gamepad2 } from "lucide-react";
 function AboutPage() {
   // function goToProgrammer() {
   //   const element = document.getElementsByClassName("card")[0];
@@ -21,21 +22,37 @@ function AboutPage() {
   }
 
   return (
-    <div className="root">
+    <div className="about-root">
       <NavBar />
       <SocialBar />
-      <div className="blur"></div>
       <div className="projects-container">
         <div className="card" id="programmer">
-          <div className="wrapper">
-            <h1 className="title">As a Programmer</h1>
+          <div className="programmer-div">
+            <h1 className="about-title">As a Programmer</h1>
+            <p className="content">
+              <Airplay className="about-icon" />
+              Since high school, I have been captivated by the capabilities of
+              computers and the elegance of algorithms. The transformative power
+              of code to materialize thoughts and ideas into functional
+              solutions has always intrigued me.
+            </p>
+            <p className="content">
+              <Airplay className="about-icon" /> I embarked on my journey in
+              computer science during my high school years, where my fascination
+              with the field truly blossomed. It was during this time that I
+              discovered the artistry inherent in crafting algorithms and the
+              satisfaction derived from problem-solving through coding.
+            </p>
+            <p className="content">
+              <Airplay className="about-icon" /> This passion led me to pursue
+              an Associate's Degree in Computer Science, followed by a
+              Bachelor's Degree from San Jose State University. These academic
+              endeavors have equipped me with a comprehensive understanding of
+              computer science principles and refined my skills in software
+              development and problem-solving.
+            </p>
           </div>
-          <p className="content">
-            I started programming sinece highschool. I was fancinated by the
-            things that computer could do for us and amazed by the beauty of
-            algorithms. I enjoy the feeling of using code to convert thoughts
-            and ideas into code, and result in solve problems.
-          </p>
+
           <button class="nextBtn" onClick={goToCoach}>
             <span class="circle" aria-hidden="true">
               <span class="icon arrow"></span>
@@ -44,7 +61,7 @@ function AboutPage() {
         </div>
         <div className="card" id="coach">
           <div className="wrapper">
-            <h1 className="title">As a Badminton Coach</h1>
+            <h1 className="about-title">As a Badminton Coach</h1>
           </div>
           <p className="content">
             Badminton is my favorite sport, and I have dedicated a significant
@@ -67,6 +84,7 @@ function AboutPage() {
             bookkeeping. I genuinely enjoy every aspect of this sport, and I
             wholeheartedly strive to excel in whatever role I undertake.
           </p>
+          <Dumbbell className="about-icon" />
           <button class="nextBtn" onClick={goToChef}>
             <span class="circle" aria-hidden="true">
               <span class="icon arrow"></span>
@@ -75,7 +93,7 @@ function AboutPage() {
         </div>
         <div className="card" id="sushi">
           <div className="wrapper">
-            <h1 className="title">As a Sushi Chef</h1>
+            <h1 className="about-title">As a Sushi Chef</h1>
           </div>
 
           <p className="content">
@@ -97,16 +115,16 @@ function AboutPage() {
             a substantial amount of time to refine my skills, thoroughly
             enjoying the entire process.
           </p>
-
+          <ChefHat />
           <button class="nextBtn" onClick={goToGamer}>
             <span class="circle" aria-hidden="true">
               <span class="icon arrow"></span>
             </span>
           </button>
         </div>
-        <div className="card">
+        <div className="card" id="gamer">
           <div className="wrapper">
-            <h1 className="title">As a Gamer</h1>
+            <h1 className="about-title">As a Gamer</h1>
           </div>
           <p className="content">
             In China, the heavy academic pressure left me with no time to engage
@@ -131,6 +149,7 @@ function AboutPage() {
             emotionally gripping stories, tricky puzzles, and intense, thrilling
             battles.
           </p>
+          <Gamepad2 />
         </div>
       </div>
     </div>

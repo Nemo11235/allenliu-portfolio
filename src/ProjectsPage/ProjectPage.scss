@@ -1,26 +1,48 @@
-.root {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.project-root {
   min-height: 100vh;
+  background-image: url("../Images/project-page-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 .space {
   height: 70px;
 }
 
 .project-container {
-  background-color: #f8f8f8;
-  color: #333333;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(10px);
   display: flex;
-  flex-direction: column;
-  align-items: self-start;
-  justify-content: flex-start;
-  width: 50%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
   height: auto;
-  border: 1px solid black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin: 20px;
+  padding: 20px;
+  transition: box-shadow 200ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.project-container:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .page-p-title {
   margin-left: 20px;
+  color: white;
 }
 
 .project-container p {
@@ -29,10 +51,15 @@
   padding-left: 20px;
   opacity: 0;
   animation: fadeIn 1s forwards;
+  color: white;
 }
 
 @keyframes fadeIn {
   to {
     opacity: 1;
   }
+}
+
+.project-thumbnail {
+  max-width: 500px;
 }
